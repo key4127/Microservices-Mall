@@ -44,3 +44,27 @@
 21:56:12:965  INFO 27316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 21:56:12:985  INFO 27316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 21:56:13:090  INFO 27316 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.079 seconds (JVM running for 2.585)
+22:31:14:143  INFO 8552 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 22.0.1 on LAPTOP-2L2RPIOA with PID 8552 (E:\Microservices Mall\hmall\item-service\target\classes started by keyist in E:\Microservices Mall\hmall)
+22:31:14:144 DEBUG 8552 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:31:14:145  INFO 8552 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+22:31:15:009  INFO 8552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+22:31:15:016  INFO 8552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:31:15:016  INFO 8552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:31:15:129  INFO 8552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:31:15:130  INFO 8552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+22:31:15:709  INFO 8552 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:31:15:774  INFO 8552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+22:31:15:775  INFO 8552 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:31:15:777  INFO 8552 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:31:15:812  INFO 8552 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:31:15:914  INFO 8552 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.043 seconds (JVM running for 2.543)
+22:31:25:884  INFO 8552 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:31:25:885  INFO 8552 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:31:25:886  INFO 8552 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+22:31:26:003  INFO 8552 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:31:26:618  INFO 8552 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:31:26:629 DEBUG 8552 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+22:31:26:691 DEBUG 8552 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+22:31:26:748 DEBUG 8552 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+22:31:58:433  INFO 8552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+22:31:58:448  INFO 8552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
