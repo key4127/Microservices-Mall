@@ -1,0 +1,3 @@
+2025/03/06 10:07:54 [notice] 20964#22760: signal process started
+2025/03/07 16:25:08 [error] 26668#30968: *2 CreateFile() "E:\Microservices Mall\hmall-nginx/html/hmall-portal/myOrder.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /myOrder.html HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/paysuccess.html?orderId=1897926355971067906"
+2025/03/07 16:25:37 [notice] 20476#20432: signal process started

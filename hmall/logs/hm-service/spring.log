@@ -1,0 +1,312 @@
+15:36:49:068  INFO 30332 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 22.0.1 on LAPTOP-2L2RPIOA with PID 30332 (E:\Microservices Mall\hmall\hm-service\target\classes started by keyist in E:\Microservices Mall\hmall)
+15:36:49:074 DEBUG 30332 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:36:49:075  INFO 30332 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+15:36:50:105  INFO 30332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:36:50:110  INFO 30332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:36:50:152  INFO 30332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+15:36:51:099  INFO 30332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+15:36:51:110  INFO 30332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:36:51:110  INFO 30332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:36:51:281  INFO 30332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:36:51:281  INFO 30332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2125 ms
+15:36:53:443  INFO 30332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:36:54:014  INFO 30332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+15:36:54:016  INFO 30332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:36:54:020  INFO 30332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:36:54:060  INFO 30332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:36:54:277  INFO 30332 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.7 seconds (JVM running for 6.519)
+15:37:23:064  INFO 18732 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 22.0.1 on LAPTOP-2L2RPIOA with PID 18732 (E:\Microservices Mall\hmall\hm-service\target\classes started by keyist in E:\Microservices Mall\hmall)
+15:37:23:066 DEBUG 18732 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:37:23:067  INFO 18732 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+15:37:24:096  INFO 18732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:37:24:099  INFO 18732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:37:24:145  INFO 18732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+15:37:24:923  INFO 18732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+15:37:24:934  INFO 18732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:37:24:935  INFO 18732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:37:25:140  INFO 18732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:37:25:141  INFO 18732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2014 ms
+15:37:27:222  INFO 18732 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:37:27:685  INFO 18732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+15:37:27:687  INFO 18732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:37:27:690  INFO 18732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:37:27:747  INFO 18732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:37:28:023  INFO 18732 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.461 seconds (JVM running for 6.257)
+15:37:31:526  INFO 18732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:31:527  INFO 18732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:37:31:529  INFO 18732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+15:37:31:569 ERROR 18732 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.hmall.common.exception.UnauthorizedException: 未登录] with root cause
+
+com.hmall.common.exception.UnauthorizedException: 未登录
+	at com.hmall.utils.JwtTool.parseToken(JwtTool.java:47) ~[classes/:na]
+	at com.hmall.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:21) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+16:19:32:562  INFO 28992 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 22.0.1 on LAPTOP-2L2RPIOA with PID 28992 (E:\Microservices Mall\hmall\hm-service\target\classes started by keyist in E:\Microservices Mall\hmall)
+16:19:32:564 DEBUG 28992 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:19:32:565  INFO 28992 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+16:19:33:245  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:19:33:248  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:19:33:277  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+16:19:33:800  INFO 28992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:19:33:809  INFO 28992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:19:33:809  INFO 28992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:19:33:929  INFO 28992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:19:33:930  INFO 28992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+16:19:35:205  INFO 28992 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:19:35:542  INFO 28992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:19:35:543  INFO 28992 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:19:35:546  INFO 28992 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:19:35:573  INFO 28992 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:19:35:779  INFO 28992 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.533 seconds (JVM running for 4.198)
+16:19:38:966  INFO 28992 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:19:38:967  INFO 28992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:19:38:967  INFO 28992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+16:19:39:079  INFO 28992 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:19:39:376  INFO 28992 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:19:39:393 DEBUG 28992 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+16:19:39:419 DEBUG 28992 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+16:19:39:628 DEBUG 28992 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:19:39:638 DEBUG 28992 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:19:39:639 DEBUG 28992 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
+16:19:39:661 DEBUG 28992 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:20:02:796  INFO 28992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:20:02:806  INFO 28992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16:22:21:059  INFO 13164 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 22.0.1 on LAPTOP-2L2RPIOA with PID 13164 (E:\Microservices Mall\hmall\hm-service\target\classes started by keyist in E:\Microservices Mall\hmall)
+16:22:21:060 DEBUG 13164 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:22:21:061  INFO 13164 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+16:22:21:794  INFO 13164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:22:21:798  INFO 13164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:22:21:830  INFO 13164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+16:22:22:391  INFO 13164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:22:22:407  INFO 13164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:22:22:407  INFO 13164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:22:22:525  INFO 13164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:22:22:526  INFO 13164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+16:22:24:002  INFO 13164 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:22:24:342  INFO 13164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:22:24:343  INFO 13164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:22:24:346  INFO 13164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:22:24:393  INFO 13164 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:22:24:649  INFO 13164 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.888 seconds (JVM running for 4.419)
+16:23:05:133  INFO 13164 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:23:05:136  INFO 13164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:23:05:141  INFO 13164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+16:23:05:472  INFO 13164 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:23:05:941  INFO 13164 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:23:05:957 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:23:06:037 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: jack(String)
+16:23:06:111 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+16:23:06:521 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:23:06:523 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:23:06:527 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : <==      Total: 0
+16:23:27:000 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+16:23:27:000 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+16:23:27:033 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:27:041 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:27:042 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
+16:23:27:051 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:33:881 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (category = ? AND status = ?)
+16:23:33:882 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 手机(String), 1(Integer)
+16:23:33:959 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:33:961 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (category = ? AND status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:33:962 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 手机(String), 1(Integer), 20(Long)
+16:23:34:625 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:36:468 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+16:23:36:468 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+16:23:36:500 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:36:502 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:36:503 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
+16:23:36:521 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:39:416 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (name LIKE ? AND status = ?)
+16:23:39:417 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: %手机%(String), 1(Integer)
+16:23:40:223 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:40:225 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (name LIKE ? AND status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:40:225 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: %手机%(String), 1(Integer), 20(Long)
+16:23:40:230 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:40:910 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (name LIKE ? AND status = ?)
+16:23:40:911 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: %手机%(String), 1(Integer)
+16:23:41:359 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:41:361 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (name LIKE ? AND status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:41:362 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: %手机%(String), 1(Integer), 20(Long)
+16:23:41:376 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:42:222 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (name LIKE ? AND category = ? AND status = ?)
+16:23:42:223 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: %手机%(String), 手机(String), 1(Integer)
+16:23:42:346 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:42:350 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (name LIKE ? AND category = ? AND status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:42:351 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: %手机%(String), 手机(String), 1(Integer), 20(Long)
+16:23:42:561 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:23:55:582 DEBUG 13164 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (name LIKE ? AND category = ? AND status = ?)
+16:23:55:583 DEBUG 13164 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: %c%(String), 手机(String), 1(Integer)
+16:23:55:691 DEBUG 13164 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:23:55:693 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (name LIKE ? AND category = ? AND status = ?) ORDER BY update_time DESC LIMIT ?
+16:23:55:693 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: %c%(String), 手机(String), 1(Integer), 20(Long)
+16:23:55:857 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:24:02:339 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+16:24:02:339 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long), 6558984(Long)
+16:24:02:341 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
+16:24:02:345 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+16:24:02:345 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long)
+16:24:02:346 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
+16:24:02:353 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.insert       : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+16:24:02:354 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.insert       : ==> Parameters: 1(Long), 6558984(Long), 荣耀畅玩7C 全面屏手机 全网通标配版 3GB+32GB 魅焰红 移动联通电信4G手机 双卡双待(String), {"颜色": "红色"}(String), 49600(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t20305/259/1209609364/193755/a3940552/5b21ce25N131ce626.jpg!q70.jpg.webp(String)
+16:24:02:360 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.insert       : <==    Updates: 1
+16:24:02:448 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:02:450 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:02:453 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:02:461 DEBUG 13164 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:02:462 DEBUG 13164 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 6558984(Long)
+16:24:02:465 DEBUG 13164 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:07:441 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+16:24:07:442 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.updateById   : ==> Parameters: 2(Integer), 11(Long)
+16:24:07:448 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.updateById   : <==    Updates: 1
+16:24:07:458 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:07:459 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:07:462 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:07:463 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:07:463 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 6558984(Long)
+16:24:07:466 DEBUG 13164 --- [http-nio-8080-exec-8] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:07:917 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+16:24:07:918 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.updateById   : ==> Parameters: 3(Integer), 11(Long)
+16:24:07:923 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.updateById   : <==    Updates: 1
+16:24:07:934 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:07:934 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:07:937 DEBUG 13164 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:07:938 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:07:938 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 6558984(Long)
+16:24:07:941 DEBUG 13164 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:08:284 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+16:24:08:284 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.updateById   : ==> Parameters: 2(Integer), 11(Long)
+16:24:08:289 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.updateById   : <==    Updates: 1
+16:24:08:318 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:08:319 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:08:321 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:08:323 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:08:323 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 6558984(Long)
+16:24:08:325 DEBUG 13164 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:08:530 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+16:24:08:531 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.updateById   : ==> Parameters: 1(Integer), 11(Long)
+16:24:08:535 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.updateById   : <==    Updates: 1
+16:24:08:562 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:08:563 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:08:567 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:08:568 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:08:568 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 6558984(Long)
+16:24:08:571 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:14:997 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.deleteById   : ==>  Preparing: DELETE FROM cart WHERE id=?
+16:24:14:997 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.deleteById   : ==> Parameters: 11(Long)
+16:24:15:003 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.CartMapper.deleteById   : <==    Updates: 1
+16:24:15:035 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:15:036 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:15:038 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : <==      Total: 0
+16:24:16:274 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+16:24:16:275 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+16:24:16:312 DEBUG 13164 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+16:24:16:316 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:24:16:316 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
+16:24:16:323 DEBUG 13164 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+16:24:29:350 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+16:24:29:351 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long), 2120808(Long)
+16:24:29:353 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
+16:24:29:356 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+16:24:29:357 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long)
+16:24:29:358 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
+16:24:29:360 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.insert       : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+16:24:29:361 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.insert       : ==> Parameters: 1(Long), 2120808(Long), 姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色(String), {}(String), 71800(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp(String)
+16:24:29:367 DEBUG 13164 --- [http-nio-8080-exec-8] com.hmall.mapper.CartMapper.insert       : <==    Updates: 1
+16:24:29:413 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:24:29:413 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:24:29:416 DEBUG 13164 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
+16:24:29:417 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:29:417 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 2120808(Long)
+16:24:29:421 DEBUG 13164 --- [http-nio-8080-exec-2] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:30:933 DEBUG 13164 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:24:30:934 DEBUG 13164 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:24:30:938 DEBUG 13164 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:24:39:680 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:24:39:680 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 2120808(Long)
+16:24:39:683 DEBUG 13164 --- [http-nio-8080-exec-7] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
+16:24:39:688 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.OrderMapper.insert      : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+16:24:39:689 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.OrderMapper.insert      : ==> Parameters: 1897926355971067906(Long), 71800(Integer), 3(Integer), 1(Long), 1(Integer)
+16:24:39:693 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.OrderMapper.insert      : <==    Updates: 1
+16:24:39:706 DEBUG 13164 --- [http-nio-8080-exec-7] c.hmall.mapper.OrderDetailMapper.insert  : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+16:24:39:707 DEBUG 13164 --- [http-nio-8080-exec-7] c.hmall.mapper.OrderDetailMapper.insert  : ==> Parameters: 1897926355971067906(Long), 2120808(Long), 1(Integer), 姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色(String), {}(String), 71800(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp(String)
+16:24:39:720 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.delete       : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+16:24:39:721 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.delete       : ==> Parameters: 1(Long), 2120808(Long)
+16:24:39:725 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.delete       : <==    Updates: 1
+16:24:39:726 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.updateStock  : ==>  Preparing: UPDATE item SET stock = stock - ? WHERE id = ?
+16:24:39:727 DEBUG 13164 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.updateStock  : ==> Parameters: 1(Integer), 2120808(Long)
+16:24:39:808 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+16:24:39:809 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.OrderMapper.selectById  : ==> Parameters: 1897926355971067906(Long)
+16:24:39:811 DEBUG 13164 --- [http-nio-8080-exec-4] com.hmall.mapper.OrderMapper.selectById  : <==      Total: 1
+16:24:39:856 DEBUG 13164 --- [http-nio-8080-exec-9] c.hmall.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:24:39:857 DEBUG 13164 --- [http-nio-8080-exec-9] c.hmall.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1897926355971067906(Long)
+16:24:39:863 DEBUG 13164 --- [http-nio-8080-exec-9] c.hmall.mapper.PayOrderMapper.selectOne  : <==      Total: 0
+16:24:39:872 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.PayOrderMapper.insert   : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:24:39:881 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.PayOrderMapper.insert   : ==> Parameters: 1897926356730236929(Long), 1897926355971067906(Long), 1897926356667322369(Long), 1(Long), balance(String), 71800(Integer), 5(Integer), 1(Integer), 2025-03-07T18:24:39.866025400(LocalDateTime)
+16:24:39:890 DEBUG 13164 --- [http-nio-8080-exec-9] com.hmall.mapper.PayOrderMapper.insert   : <==    Updates: 1
+16:25:05:839 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.PayOrderMapper.selectById     : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE id=?
+16:25:05:839 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.PayOrderMapper.selectById     : ==> Parameters: 1897926356730236929(Long)
+16:25:05:842 DEBUG 13164 --- [http-nio-8080-exec-10] c.h.mapper.PayOrderMapper.selectById     : <==      Total: 1
+16:25:05:843  INFO 13164 --- [http-nio-8080-exec-10] com.hmall.service.impl.UserServiceImpl   : 开始扣款
+16:25:05:843 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.selectById   : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE id=?
+16:25:05:843 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.selectById   : ==> Parameters: 1(Long)
+16:25:05:845 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.selectById   : <==      Total: 1
+16:25:05:986 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.updateMoney  : ==>  Preparing: update user set balance = balance - 71800 where id = ?
+16:25:05:986 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.updateMoney  : ==> Parameters: 1(Long)
+16:25:06:000 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.UserMapper.updateMoney  : <==    Updates: 1
+16:25:06:000  INFO 13164 --- [http-nio-8080-exec-10] com.hmall.service.impl.UserServiceImpl   : 扣款成功
+16:25:06:010 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.PayOrderMapper.update   : ==>  Preparing: UPDATE pay_order SET status=?,pay_success_time=? WHERE (id = ? AND status IN (?,?))
+16:25:06:012 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.PayOrderMapper.update   : ==> Parameters: 3(Integer), 2025-03-07T16:25:06.000524500(LocalDateTime), 1897926356730236929(Long), 0(Integer), 1(Integer)
+16:25:06:017 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.PayOrderMapper.update   : <==    Updates: 1
+16:25:06:020 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.OrderMapper.updateById  : ==>  Preparing: UPDATE `order` SET status=?, pay_time=? WHERE id=?
+16:25:06:020 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.OrderMapper.updateById  : ==> Parameters: 2(Integer), 2025-03-07T16:25:06.017549(LocalDateTime), 1897926355971067906(Long)
+16:25:06:023 DEBUG 13164 --- [http-nio-8080-exec-10] com.hmall.mapper.OrderMapper.updateById  : <==    Updates: 1
+16:25:06:088 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+16:25:06:088 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.OrderMapper.selectById  : ==> Parameters: 1897926355971067906(Long)
+16:25:06:091 DEBUG 13164 --- [http-nio-8080-exec-1] com.hmall.mapper.OrderMapper.selectById  : <==      Total: 1
+16:25:10:314 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:25:10:315 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+16:25:10:316 DEBUG 13164 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : <==      Total: 0
+16:25:15:171  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:25:15:186  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
